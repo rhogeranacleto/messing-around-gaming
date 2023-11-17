@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://bu7mr73bty5cq"]
+
+[ext_resource type="PackedScene" uid="uid://ky2idy576i7p" path="res://GUI/Inventory/inventoryItem.gui.tscn" id="1_ufwx3"]
+[ext_resource type="Resource" uid="uid://dnku56n54k6c7" path="res://Inventory/items/wood.tres" id="2_jou8y"]
+
+[node name="InventoryGUI" type="HFlowContainer"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="WoodGuiCounter" parent="." instance=ExtResource("1_ufwx3")]
+layout_mode = 2
+inventoryWoodItem = ExtResource("2_jou8y")

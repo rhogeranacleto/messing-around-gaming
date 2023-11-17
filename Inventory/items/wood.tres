@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="InventoryItem" load_steps=3 format=3 uid="uid://dnku56n54k6c7"]
+
+[ext_resource type="Script" path="res://Inventory/inventoryItem.resource.gd" id="1_so2lp"]
+[ext_resource type="Texture2D" uid="uid://c5ldx335hwatu" path="res://TilesetNature.png" id="2_ukgap"]
+
+[resource]
+script = ExtResource("1_so2lp")
+name = "Wood"
+texture = ExtResource("2_ukgap")
+amount = 0

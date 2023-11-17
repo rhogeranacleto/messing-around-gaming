@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://ky2idy576i7p"]
+
+[ext_resource type="Script" path="res://GUI/Inventory/inventoryItem.gui.gd" id="1_fq7wy"]
+[ext_resource type="Texture2D" uid="uid://c5ldx335hwatu" path="res://TilesetNature.png" id="2_gel3q"]
+
+[node name="InventoryItemGui" type="HBoxContainer"]
+visible = false
+custom_minimum_size = Vector2(47, 41)
+offset_right = 47.0
+offset_bottom = 41.0
+alignment = 2
+script = ExtResource("1_fq7wy")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 2
+size_flags_vertical = 8
+text = "0"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_gel3q")
+centered = false
+hframes = 12
+vframes = 11
